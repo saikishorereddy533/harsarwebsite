@@ -10,6 +10,16 @@ body{
 
 
 
+@font-face {
+    font-family: imported;
+    src: url(./fonts/Blueberry.otf);
+  }
+  
+  .font{
+    font-family: imported;
+  }
+
+
 /* innovations */
 .myclass{
     text-decoration: none;
@@ -27,7 +37,7 @@ body{
 .imginv{
     display: inline-block;
     height: 25%;
-    width: 25%
+    width: 42%
 }
   
   
@@ -223,6 +233,11 @@ body{
     margin-left: 35px;
     margin-bottom: 15px;
 }
+
+.scanner img{
+    width: 100%;
+}
+
 .in-right{
     margin-top: 15px;
 }

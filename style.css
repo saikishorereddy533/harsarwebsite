@@ -14,6 +14,27 @@ body{
 }
 
 
+
+@font-face {
+    font-family: imported-h;
+    src: url(./fonts/Blueberry.otf);
+  }
+  
+  .font{
+    font-family: imported-h;
+  }
+
+@font-face {
+    font-family: imported;
+    src: url(./fonts/deToks.otf);
+  }
+  
+  .font-home{
+    font-family: imported;
+  }
+
+
+
 h1{
     color: #fff;
     font-size: 10rem;
